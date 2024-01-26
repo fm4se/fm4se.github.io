@@ -1,6 +1,6 @@
 # Formal Methods for Software Engineering
 
-Currently, this website offer the following resources:
+Currently, this website offers the following resources:
 
 - Visit the [Formal Methods Playground](https://play.formal-methods.net).
 - Go back more than a decade to 2011 and visit a [more colorful predecessor of this website](index-2011.html).
