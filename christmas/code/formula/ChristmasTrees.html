@@ -1,0 +1,32 @@
+// This example is adapted from the N-Queens example and 
+// part of the Christmas story:
+//
+//   How Formal Methods Save Christmas
+//     by Jan O. Ringert
+//   http://christmas.formal-methods.net/
+//
+
+domain ChristmasTrees
+{
+    primitive ChristmasTree ::= (x: Natural, y: Natural).
+
+    OutsideMarketPlace := ChristmasTree (x,_), 
+                          x >= count(ChristmasTree(_,_)) .
+    OutsideMarketPlace := ChristmasTree (_,y), 
+                          y >= count(ChristmasTree(_,_)) .
+
+    SameRow      := t1 is ChristmasTree, t2 is ChristmasTree,
+                    	t1.y = t2.y, t1 != t2.    
+    SameColumn   := t1 is ChristmasTree, t2 is ChristmasTree,
+                    	t1.x = t2.x, t1 != t2.
+    SameDiagonal := t1 is ChristmasTree, t2 is ChristmasTree,
+                    	t1 != t2, t1.x - t1.y = t2.x - t2.y.
+    SameDiagonal := t1 is ChristmasTree, t2 is ChristmasTree,
+                    	t1 != t2, t1.x + t1.y = t2.x + t2.y.
+
+    conforms := !OutsideMarketPlace &
+                  !SameRow & !SameColumn & !SameDiagonal.
+}
+
+[Cardinality(ChristmasTree, 8)]
+partial model TreeDistribution of ChristmasTrees {}

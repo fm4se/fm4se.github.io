@@ -1,0 +1,35 @@
+c This example is part of the Christmas story:
+c
+c   How Formal Methods Save Christmas
+c      by Jan O. Ringert
+c
+c   http:cchristmas.formal-methods.net/
+c
+
+p cnf 10 11 
+c puppy OR doll
+1 2 0
+c PS3 OR Xbox
+3 4 0
+
+c NOT puppy OR dogBasket
+-1 5 0
+c NOT puppy OR ball
+-1 6 0
+
+c NOT doll OR dresses
+-2 7 0
+c NOT doll OR barbieGame
+-2 8 0
+
+c NOT puppy OR NOT PS3
+-1 -3 0
+c NOT puppy OR Xbox
+-1 4 0
+c NOT puppy OR dogTrainerGame
+-1 9 0
+
+c NOT doll OR dollHouse
+-2 10 0
+c NOT dollHouse OR doll
+-10 2 0

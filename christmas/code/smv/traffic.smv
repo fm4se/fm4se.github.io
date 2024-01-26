@@ -1,0 +1,76 @@
+-- This example is part of the Christmas story:
+--
+--   How Formal Methods Save Christmas
+--      by Jan O. Ringert
+--
+--   http://christmas.formal-methods.net/
+--
+
+MODULE main
+  
+	VAR
+		WestLightGreen: boolean;
+		EastLightGreen: boolean;
+		SouthLightGreen : boolean;
+		EWLock: boolean;
+		ReindeerWest: boolean; 
+		ReindeerEast: boolean; 
+		ReindeerSouth : boolean;
+
+	INIT
+		!WestLightGreen &	!EastLightGreen &	!SouthLightGreen &	!EWLock;
+
+	-- requests are not cleared if they are not handled
+	TRANS
+		(ReindeerWest & !WestLightGreen -> next(ReindeerWest)) &
+		(ReindeerEast & !EastLightGreen -> next(ReindeerEast)) &
+		(ReindeerSouth & !SouthLightGreen -> next(ReindeerSouth));
+
+	DEFINE
+		WestLightCanTurnGreen := ReindeerWest & !WestLightGreen & !ReindeerSouth;
+		WestDone := !ReindeerWest & WestLightGreen;
+		EastLightCanTurnGreen := ReindeerEast & !EastLightGreen & !ReindeerSouth;
+		EastDone := !ReindeerEast & EastLightGreen;
+		SouthLightCanTurnGreen := ReindeerSouth & !SouthLightGreen & !EWLock;
+		SouthDone := !ReindeerSouth & SouthLightGreen;
+
+	-- when to turn on the lights		
+	TRANS
+		case
+			WestLightCanTurnGreen : next(WestLightGreen) & next(EWLock);
+			WestDone : !next(WestLightGreen) & ( next(EWLock) = EastLightGreen);
+			TRUE : (next(WestLightGreen) = WestLightGreen);
+		esac;
+
+	TRANS
+		case
+			EastLightCanTurnGreen : next(EastLightGreen) & next(EWLock);
+      EastDone : !next(EastLightGreen) & ( next(EWLock) = WestLightGreen);
+      TRUE : (next(EastLightGreen) = EastLightGreen);
+		esac;
+
+	TRANS
+		case
+      SouthLightCanTurnGreen : next(SouthLightGreen);
+      SouthDone : !next(SouthLightGreen);
+      TRUE : next(SouthLightGreen) = SouthLightGreen;
+    	esac;
+    	
+  -- lock on east west direction is kept unless east and west lights turn
+	TRANS
+		!(EastLightCanTurnGreen | WestLightCanTurnGreen | WestDone | EastDone) -> 
+							next(EWLock) = EWLock; 
+
+  
+	LTLSPEC NAME 
+		noReindeerCrash := G !(SouthLightGreen & (WestLightGreen | EastLightGreen));
+
+	LTLSPEC NAME 
+		noReindeerWaitsForever := 
+		        G (ReindeerWest & WestLightGreen -> F !ReindeerWest) & 
+				    G (ReindeerEast & EastLightGreen -> F !ReindeerEast) &
+				    G (ReindeerSouth & SouthLightGreen -> F !ReindeerSouth) ->
+								
+    				G (ReindeerWest -> F WestLightGreen) & 
+		  	   	G (ReindeerEast -> F EastLightGreen) & 
+			 	    G (ReindeerSouth -> F SouthLightGreen);
