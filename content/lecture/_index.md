@@ -1,5 +1,5 @@
 ---
-title: Lercture
+title: Lecture
 subtitle: ''
 
 # Listing view
