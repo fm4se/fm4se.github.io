@@ -1,55 +1,8 @@
 ---
-title: FM4SE Winter Semester 2023/24
-subtitle: ''
-
-# event: Wowchemy Conference
-# event_url: https://example.org
-
-# location: Wowchemy HQ
-# address:
-#   street: 450 Serra Mall
-#   city: Stanford
-#   region: CA
-#   postcode: '94305'
-#   country: United States
-
-summary: 
-abstract: ''
-
-# Talk start and end times.
-#   End time can optionally be hidden by prefixing the line with `#`.
-date: '2024-09-05T00:00:00Z'
-
-# Schedule page publish date (NOT talk date).
-publishDate: '2024-09-05T00:00:00Z'
-
-authors: []
-tags: []
-
-# Is this a featured talk? (true/false)
-featured: false
-
-image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/bzdhc5b3Bxs)'
-  focal_point: Right
-
-url_code: ''
-url_pdf: ''
-url_slides: ''
-url_video: ''
-
-# Markdown Slides (optional).
-#   Associate this talk with Markdown slides.
-#   Simply enter your slide deck's filename without extension.
-#   E.g. `slides = "example-slides"` references `content/slides/example-slides.md`.
-#   Otherwise, set `slides = ""`.
-slides:
-
-# Projects (optional).
-#   Associate this post with one or more of your projects.
-#   Simply enter your project's folder or file name without extension.
-#   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
-#   Otherwise, set `projects = []`.
-projects:
+title: FM4SE Winter Semester 2023/24 Videos
+date: 2024-07-01
 ---
 
+For the second time, we have taught the module Formal Methods for Software Engineering (FM4SE) at Bauhaus-University Weimar. This time, we have [recorded the lectures](https://www.youtube.com/playlist?list=PLGyeoukah9Nbd1yRDj3ridE7PtcL91-5u) and uploaded them to YouTube.
+
+The lecture has been developed over the last two years with feedback from students and teaching assistants at Bauhaus-University Weimar. The materials are based on lectures by [Allison K. Sullivan](https://allisonius.github.io/) (selected SMT and Alloy materials) and [Shahar Maoz](https://www.cs.tau.ac.il/~maozs/) (selected LTL materials).
