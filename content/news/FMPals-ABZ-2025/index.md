@@ -43,7 +43,7 @@ slides:
 #   Simply enter your project's folder or file name without extension.
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
-projects: FM Playground
+projects:
 ---
 
 We are excited to announce the publication of our new paper, dataset, and accompanying code: On Writing Alloy Models: Metrics and a New Dataset Presented at [ABZ 2025](https://abz-conf.org/site/2025/)
