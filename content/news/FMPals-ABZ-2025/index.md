@@ -46,7 +46,7 @@ slides:
 projects:
 ---
 
-We are excited to announce the publication of our new paper, dataset, and accompanying code: On Writing Alloy Models: Metrics and a New Dataset Presented at [ABZ 2025](https://abz-conf.org/site/2025/)
+We are excited to announce the publication of our new paper, dataset, and accompanying code: [On Writing Alloy Models: Metrics and a New Dataset](https://soaib.me/publications/resources/ABZ25.pdf) presented at [ABZ 2025](https://abz-conf.org/site/2025/)
 
 In this work, we introduce FMPals, a new dataset of Alloy models authored on our Formal Methods Playground. 
 

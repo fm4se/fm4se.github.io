@@ -1,16 +1,16 @@
 ---
 # Display name
-title: Jan Oliver Ringert
+title: Soaibuzzaman
 
 # Full Name (for SEO)
-first_name: Jan Oliver
-last_name: Ringert
+first_name: ''
+last_name: Soaibuzzaman
 
 # Is this the primary user of the site?
 superuser: false
 
 # Role/position
-role: Professor of Software Engineering
+role: PhD Candidate | Research Associate
 
 # Organizations/Affiliations
 organizations:
@@ -51,7 +51,7 @@ social:
   #   link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
   - icon: github
     icon_pack: fab
-    link: https://github.com/jringert
+    link: https://github.com/soaib
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
 # - icon: cv
