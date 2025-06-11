@@ -28,7 +28,7 @@ image:
 
 url_code: https://github.com/se-buw/alloy-metrics
 url_pdf: https://soaib.me/publications/resources/ABZ25.pdf
-url_slides: ./Slides-OnWritingAlloyModels.pdf
+url_slides: ./news/fmpals-abz-2025/slides.pdf
 url_video: ''
 
 # Markdown Slides (optional).
