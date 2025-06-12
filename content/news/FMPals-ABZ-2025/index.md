@@ -28,7 +28,7 @@ image:
 
 url_code: https://github.com/se-buw/alloy-metrics
 url_pdf: https://soaib.me/publications/resources/ABZ25.pdf
-url_slides: ./news/fmpals-abz-2025/slides.pdf
+url_slides: ./news/fmpals-abz-2025/ABZ25-Slides.pdf
 url_video: ''
 
 # Markdown Slides (optional).
@@ -43,7 +43,7 @@ slides:
 #   Simply enter your project's folder or file name without extension.
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
-projects:
+projects: [FM Playground]
 ---
 
 We are excited to announce the publication of our new paper, dataset, and accompanying code: [On Writing Alloy Models: Metrics and a New Dataset](https://soaib.me/publications/resources/ABZ25.pdf) presented at [ABZ 2025](https://abz-conf.org/site/2025/)
