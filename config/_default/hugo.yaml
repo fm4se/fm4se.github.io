@@ -21,7 +21,8 @@ removePathAccents: true
 
 enableGitInfo: false
 summaryLength: 30
-paginate: 10
+pagination:
+  pagerSize: 10
 enableEmoji: true
 enableRobotsTXT: true
 footnotereturnlinkcontents: <sup>^</sup>
@@ -33,13 +34,13 @@ permalinks:
   publication_types: '/publication-type/:slug/'
 disableAliases: true
 outputs:
-  home: [HTML, RSS, JSON, WebAppManifest, headers, redirects]
+  home: [HTML, RSS, JSON, WebAppManifest]
   section: [HTML, RSS]
 imaging:
-  resampleFilter: lanczos
+  resampleFilter: Lanczos
   quality: 75
-  anchor: smart
-timeout: 600000
+  anchor: Smart
+timeout: "600s"
 taxonomies:
   tag: tags
   category: categories
@@ -58,5 +59,7 @@ related:
       weight: 70
 security:
   _merge: deep
+
+
 sitemap:
   _merge: deep

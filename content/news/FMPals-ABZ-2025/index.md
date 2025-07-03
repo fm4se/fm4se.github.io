@@ -27,7 +27,7 @@ image:
   focal_point: Right
 
 url_code: https://github.com/se-buw/alloy-metrics
-url_pdf: https://soaib.me/publications/resources/ABZ25.pdf
+url_pdf: ./news/fmpals-abz-2025/ABZ25.pdf
 url_slides: ./news/fmpals-abz-2025/ABZ25-Slides.pdf
 url_video: ''
 

@@ -1,5 +1,5 @@
 module github.com/wowchemy/starter-hugo-research-group
 
-go 1.15
+go 1.19
 
-require github.com/fm4se/website-theme/modules/blox-bootstrap/v5 v5.0.0-20241007220515-a086227b0621 // indirect
+require github.com/HugoBlox/hugo-blox-builder/modules/blox-bootstrap/v5 v5.9.7 // indirect

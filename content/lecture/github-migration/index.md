@@ -1,6 +1,49 @@
 ---
 title: Introducing GitHub Classroom into a Formal Methods Module
-date: 2024-09-09
+
+event: FMTea 2024, affiliated with FM 2024, the 26th International Symposium on Formal Methods
+event_url: https://fmtea.github.io/
+
+location: Milan, Italy
+
+
+summary: ''
+abstract: 'We have developed an MSc-level module on Formal Methods for Software Engineering with exercises on applying SAT solvers, SMT solvers, Alloy, and nuXmv. In the first iteration of the module, assign- ments were submitted as documents and archive files. Here, we report on our experience of moving the exercises to GitHub Classroom and au- tomating the feedback process through test cases. The main challenges we encountered were related to supporting free-response tasks and de- signing test cases that allow for multiple solutions, provide incremental feedback, and do not encode a solution. We present our setup of exercise repositories, test cases, and feedback report generation. We detail our approach in addressing the challenges of migrating from worksheets to GitHub Classroom and report on survey-based student feedback.'
+
+date: '2024-09-09T00:00:00Z'
+all_day: true
+
+# Schedule page publish date (NOT talk date).
+publishDate: '2024-09-10T00:00:00Z'
+
+authors: [Soaibuzzaman, Jan Oliver Ringert]
+tags: []
+
+# Is this a featured talk? (true/false)
+featured: false
+
+image:
+  caption: ''
+  focal_point: Right
+
+url_code: https://github.com/fm4se/exercises
+url_pdf: ./lecture/github-migration/FMTea24.pdf
+url_slides: ''
+url_video: ''
+
+# Markdown Slides (optional).
+#   Associate this talk with Markdown slides.
+#   Simply enter your slide deck's filename without extension.
+#   E.g. `slides = "example-slides"` references `content/slides/example-slides.md`.
+#   Otherwise, set `slides = ""`.
+slides:
+
+# Projects (optional).
+#   Associate this post with one or more of your projects.
+#   Simply enter your project's folder or file name without extension.
+#   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
+#   Otherwise, set `projects = []`.
+projects: [FM Playground]
 ---
 
 We migrated traditional worksheets from our Formal Methods for Software Engineering module to GitHub Classroom. Our goals were:

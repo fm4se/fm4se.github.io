@@ -5,4 +5,4 @@
 ############################
 
 imports:
-  - path: github.com/fm4se/website-theme/modules/blox-bootstrap/v5
+  - path: github.com/HugoBlox/hugo-blox-builder/modules/blox-bootstrap/v5

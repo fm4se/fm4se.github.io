@@ -1,6 +1,4 @@
+github.com/HugoBlox/hugo-blox-builder/modules/blox-bootstrap/v5 v5.9.7 h1:QPek2BL723n+uM4DjyV97qNIoPsmt/vnKAQyaGJbgvQ=
+github.com/HugoBlox/hugo-blox-builder/modules/blox-bootstrap/v5 v5.9.7/go.mod h1:xZiTEEurbEwj/NhZohozvlyLCGVCT2wARHDAJeqKG/c=
 github.com/HugoBlox/hugo-blox-builder/modules/blox-core v0.3.1/go.mod h1:So8+V2U+TNxlXmcpZfdDX0muLh3PdJ7z92h30sv3bZg=
 github.com/HugoBlox/hugo-blox-builder/modules/blox-seo v0.2.2/go.mod h1:NsESu6cEms1DgH84icCyylElg2Zu8A0f7Fma5JR0LZE=
-github.com/fm4se/website-theme/modules/blox-bootstrap/v5 v5.0.0-20240920161530-e2762041aea4 h1:2efffucAOPKDAsgn2v9OS+/gzUN8i4iQTZcXv7ia9KY=
-github.com/fm4se/website-theme/modules/blox-bootstrap/v5 v5.0.0-20240920161530-e2762041aea4/go.mod h1:wfZ1rU8yDdfbehSCLqHhhIsl2wgggaOITdvKOYT34ck=
-github.com/fm4se/website-theme/modules/blox-bootstrap/v5 v5.0.0-20241007220515-a086227b0621 h1:2F5nQY//CuzRxAMTo7BB/lSOz+868JsXaBiTe+9HMRI=
-github.com/fm4se/website-theme/modules/blox-bootstrap/v5 v5.0.0-20241007220515-a086227b0621/go.mod h1:wfZ1rU8yDdfbehSCLqHhhIsl2wgggaOITdvKOYT34ck=

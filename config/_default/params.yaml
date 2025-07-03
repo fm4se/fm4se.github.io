@@ -19,6 +19,14 @@ marketing:
     local_business_type: 'academic'
     org_name: 'Bauhaus-Universität Weimar - Software Engineering Chair'
     description: 'The Software Engineering Chair at Bauhaus-Universität Weimar conducts research in the areas of formal methods, software engineering, and software architecture.'
+  analytics:
+    google_analytics: ''
+    baidu_tongji: ''
+    google_tag_manager: ''
+    microsoft_clarity: ''
+  verification:
+    google: ''
+    baidu: ''
 
 # Site header
 
