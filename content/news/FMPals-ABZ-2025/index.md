@@ -46,7 +46,7 @@ slides:
 projects: [FM Playground]
 ---
 
-We are excited to announce the publication of our new paper, dataset, and accompanying code: [On Writing Alloy Models: Metrics and a New Dataset](https://soaib.me/publications/resources/ABZ25.pdf) presented at [ABZ 2025](https://abz-conf.org/site/2025/)
+We are excited to announce the publication of our new paper, dataset, and accompanying code: [On Writing Alloy Models: Metrics and a New Dataset](./news/FMPals-ABZ-2025/ABZ25.pdf) presented at [ABZ 2025](https://abz-conf.org/site/2025/)
 
 In this work, we introduce FMPals, a new dataset of Alloy models authored on our Formal Methods Playground. 
 
@@ -57,7 +57,7 @@ In this work, we introduce FMPals, a new dataset of Alloy models authored on our
 
 > Soaibuzzaman, S. Kalantari, J.O. Ringert. On Writing Alloy Models: Metrics and a new Dataset. Rigorous State-Based Methods. ABZ 2025. LNCS 15728, pp. 1–18, 2025.
 
-> [📥 PDF](https://soaib.me/publications/resources/ABZ25.pdf)
+> [📥 PDF](./news/FMPals-ABZ-2025/ABZ25.pdf)
 
 > 📚 DOI: [10.1007/978-3-031-94533-5_5](https://doi.org/10.1007/978-3-031-94533-5_5)
 
