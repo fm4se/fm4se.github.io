@@ -27,8 +27,8 @@ image:
   focal_point: Right
 
 url_code: https://github.com/se-buw/smt-metrics
-url_pdf: ./news/FMPsmt-SMT-2025/On-Writing-SMT-LIB-Scripts-Metrics-and-a-New-Dataset-SMT25.pdf
-url_slides: ./news/FMPsmt-SMT-2025/OnWritingSMTScripts.pdf
+url_pdf: ./news/fmpsmt-smt-2025/On-Writing-SMT-LIB-Scripts-Metrics-and-a-New-Dataset-SMT25.pdf
+url_slides: ./news/fmpsmt-smt-2025/OnWritingSMTScripts.pdf
 url_video: ''
 
 # Markdown Slides (optional).
@@ -46,7 +46,7 @@ slides:
 projects: [FM Playground]
 ---
 
-We are excited to announce the publication of our new paper, dataset, and accompanying code: [On Writing SMT-LIB Scripts: Metrics and a New Dataset](./news/FMPsmt-SMT-2025/On-Writing-SMT-LIB-Scripts-Metrics-and-a-New-Dataset-SMT25.pdf) presented at [ABZ 2025](https://smt-workshop.cs.uiowa.edu/2025/)
+We are excited to announce the publication of our new paper, dataset, and accompanying code: [On Writing SMT-LIB Scripts: Metrics and a New Dataset](./news/fmpsmt-smt-2025/On-Writing-SMT-LIB-Scripts-Metrics-and-a-New-Dataset-SMT25.pdf) presented at [ABZ 2025](https://smt-workshop.cs.uiowa.edu/2025/)
 
 In this work, we introduce FMPsmt, a new dataset of SMT-LIB Scripts authored on our Formal Methods Playground. 
 
@@ -57,7 +57,7 @@ In this work, we introduce FMPsmt, a new dataset of SMT-LIB Scripts authored on 
 
 > Soaibuzzaman, J.O. Ringert. On Writing SMT-LIB Scripts: Metrics and a New Dataset. International Workshop on Satisfiability Modulo Theories. SMT 2025. CEUR 4008, pp. 91–102, 2025.
 
-> [📥 PDF](./news/FMPsmt-SMT-2025/On-Writing-SMT-LIB-Scripts-Metrics-and-a-New-Dataset-SMT25.pdf)
+> [📥 PDF](./news/fmpsmt-smt-2025/On-Writing-SMT-LIB-Scripts-Metrics-and-a-New-Dataset-SMT25.pdf)
 
 > 📚 URL: [https://ceur-ws.org/Vol-4008/SMT_paper15.pdf](https://ceur-ws.org/Vol-4008/SMT_paper15.pdf)
 

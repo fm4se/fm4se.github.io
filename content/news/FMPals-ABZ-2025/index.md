@@ -27,8 +27,8 @@ image:
   focal_point: Right
 
 url_code: https://github.com/se-buw/alloy-metrics
-url_pdf: ./news/FMPals-ABZ-2025/On-Writing-Alloy-Models-Metrics-and-a-New-Dataset-ABZ25.pdf
-url_slides: ./news/FMPals-ABZ-2025/ABZ25-Slides.pdf
+url_pdf: ./news/fmpals-abz-2025/On-Writing-Alloy-Models-Metrics-and-a-New-Dataset-ABZ25.pdf
+url_slides: ./news/fmpals-abz-2025/ABZ25-Slides.pdf
 url_video: ''
 
 # Markdown Slides (optional).
@@ -46,7 +46,7 @@ slides:
 projects: [FM Playground]
 ---
 
-We are excited to announce the publication of our new paper, dataset, and accompanying code: [On Writing Alloy Models: Metrics and a New Dataset](./news/FMPals-ABZ-2025/On-Writing-Alloy-Models-Metrics-and-a-New-Dataset-ABZ25.pdf) presented at [ABZ 2025](https://abz-conf.org/site/2025/)
+We are excited to announce the publication of our new paper, dataset, and accompanying code: [On Writing Alloy Models: Metrics and a New Dataset](./news/fmpals-abz-2025/On-Writing-Alloy-Models-Metrics-and-a-New-Dataset-ABZ25.pdf) presented at [ABZ 2025](https://abz-conf.org/site/2025/)
 
 In this work, we introduce FMPals, a new dataset of Alloy models authored on our Formal Methods Playground. 
 
@@ -57,7 +57,7 @@ In this work, we introduce FMPals, a new dataset of Alloy models authored on our
 
 > Soaibuzzaman, S. Kalantari, J.O. Ringert. On Writing Alloy Models: Metrics and a new Dataset. Rigorous State-Based Methods. ABZ 2025. LNCS 15728, pp. 1–18, 2025.
 
-> [📥 PDF](./news/FMPals-ABZ-2025/On-Writing-Alloy-Models-Metrics-and-a-New-Dataset-ABZ25.pdf)
+> [📥 PDF](./news/fmpals-abz-2025/On-Writing-Alloy-Models-Metrics-and-a-New-Dataset-ABZ25.pdf)
 
 > 📚 DOI: [10.1007/978-3-031-94533-5_5](https://doi.org/10.1007/978-3-031-94533-5_5)
 
