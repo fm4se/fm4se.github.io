@@ -46,7 +46,7 @@ slides:
 projects: [FM Playground]
 ---
 
-We are excited to announce the publication of our new paper, dataset, and accompanying code: [On Writing SMT-LIB Scripts: Metrics and a New Dataset](./news/fmpsmt-smt-2025/On-Writing-SMT-LIB-Scripts-Metrics-and-a-New-Dataset-SMT25.pdf) presented at [ABZ 2025](https://smt-workshop.cs.uiowa.edu/2025/)
+We are excited to announce the publication of our new paper, dataset, and accompanying code: [On Writing SMT-LIB Scripts: Metrics and a New Dataset](./news/fmpsmt-smt-2025/On-Writing-SMT-LIB-Scripts-Metrics-and-a-New-Dataset-SMT25.pdf) presented at [SMT 2025](https://smt-workshop.cs.uiowa.edu/2025/)
 
 In this work, we introduce FMPsmt, a new dataset of SMT-LIB Scripts authored on our Formal Methods Playground. 
 
