@@ -57,7 +57,7 @@ In this work, we introduce FMPsmt, a new dataset of SMT-LIB Scripts authored on 
 
 > Soaibuzzaman, J.O. Ringert. On Writing SMT-LIB Scripts: Metrics and a New Dataset. International Workshop on Satisfiability Modulo Theories. SMT 2025. CEUR 4008, pp. 91–102, 2025.
 
-> [📥 PDF](./news/fmpsmt-smt-2025/On-Writing-SMT-LIB-Scripts-Metrics-and-a-New-Dataset-SMT25.pdf)
+> [📥 PDF](./On-Writing-SMT-LIB-Scripts-Metrics-and-a-New-Dataset-SMT25.pdf)
 
 > 📚 URL: [https://ceur-ws.org/Vol-4008/SMT_paper15.pdf](https://ceur-ws.org/Vol-4008/SMT_paper15.pdf)
 

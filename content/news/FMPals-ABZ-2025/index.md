@@ -57,7 +57,7 @@ In this work, we introduce FMPals, a new dataset of Alloy models authored on our
 
 > Soaibuzzaman, S. Kalantari, J.O. Ringert. On Writing Alloy Models: Metrics and a new Dataset. Rigorous State-Based Methods. ABZ 2025. LNCS 15728, pp. 1–18, 2025.
 
-> [📥 PDF](./news/fmpals-abz-2025/On-Writing-Alloy-Models-Metrics-and-a-New-Dataset-ABZ25.pdf)
+> [📥 PDF](./On-Writing-Alloy-Models-Metrics-and-a-New-Dataset-ABZ25.pdf)
 
 > 📚 DOI: [10.1007/978-3-031-94533-5_5](https://doi.org/10.1007/978-3-031-94533-5_5)
 
